@@ -1,0 +1,57 @@
+.focusDiv{
+   
+    margin-top: 3%;
+}
+.focusCard{
+    width: 80%;
+    height: 200px;
+    position: relative;
+    border: none;
+    border-radius: 10px;
+    padding-top: 40px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 10px;
+    background: linear-gradient(0deg,white 70%, red 400% );
+
+}
+.focusCard img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -15%;
+    left: 40%;
+
+}
+.focusCard p{
+    padding: 20px 10% 0 10% !important;
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+    margin: 0 0 10px;
+    font-size: 20px;
+    color: #989898;
+    
+}
+.main-card-div{
+display: flex !important;
+justify-content: space-around !important;
+}
+.focusHeading{
+    padding-bottom: 20px;
+    background: transparent(transparent);
+    text-align: center;
+    color: #989898;
+}
+.second-card{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+}
+.second-card-div
+{
+    width: 50%;
+    float: right;
+ background:linear-gradient(0deg,white 70%, rgb(41, 41, 100) 400% );
+margin: 0 6% 0 6%;
+}

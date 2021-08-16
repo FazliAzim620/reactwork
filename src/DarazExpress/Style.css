@@ -1,0 +1,57 @@
+.expressMain{
+    padding: 20px;
+    /* margin-top: 10% !important; */
+    justify-content: space-around ;
+}
+.expressLeft ,.friendLeft{
+    background-color: #ff752e;
+  border-radius: 10px;
+    padding: 20px;
+    height: 400px;
+}
+.expressLeft img{
+    width: 10%;
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.expressText{
+    margin-top: 1%;
+    margin-left: 7%;
+    margin-top: 1%;
+    color: white;
+    font-size: 20px;
+    font-family:'Roboto', sans-serif; 
+   padding-right: 10px;
+    line-height: 20px;
+}
+.expressRight ,.friendRight{
+ 
+    height: 400px;
+     
+}
+.expressRight img ,.friendRight img{
+    width: 100%;
+    height: 100%;
+    margin-left: -60px;
+   padding:10px;
+    border-radius: 4%;
+    
+}
+.freindlogo{
+    width: 30%;
+    height: 15%;
+    display: inline-block;
+    margin: 10% 0 5% 10%;
+}
+.friendship{
+    margin-top: 10% !important;
+}
+@media (max-width:768px){
+    .expressMain{
+        margin-top: 47% !important
+    }
+    .expressRight img{
+        margin-left: 0px;
+
+    }
+}

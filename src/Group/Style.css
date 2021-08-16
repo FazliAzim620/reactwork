@@ -1,0 +1,56 @@
+.groupDiv{
+    width: 100%; 
+    height: 70%;
+    
+    /* background-image: url(background.png); */
+    
+     margin-top: 7%;
+    
+}
+.groupinnerdiv{
+    padding:7%;
+    width:55% !important;
+    font-family: 'Roboto', sans-serif;
+    line-height: 110%;
+    font-size:22px;
+    text-align:center ;
+    font-weight: 500;
+    
+    
+}
+.groupinnerdiv p{
+    color: #ffff;
+}
+.group-pic{
+    background: white;
+    width: 65% !important;
+    border: none;
+    border-radius: 20px;
+ 
+}
+.group-pic img{
+    width: 60%;
+    height: 100%;
+    padding: 10%;
+}
+.alibaba {
+    margin-left: 20%;;
+}
+.alibaba h5{
+    font-size: 18px;
+    
+}
+.alibaba h5,h1,p{
+    color: #717171;
+    font-family: 'Roboto', sans-serif;
+   
+}
+@media (max-width:768px){
+    .group-pic {
+    
+        width: 100% !important;
+        
+}
+.groupinnerdiv{
+    padding: 0;
+}}

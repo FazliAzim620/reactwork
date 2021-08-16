@@ -1,0 +1,52 @@
+.main-care-div{
+    width: 100%;
+  background:#f2efef ;
+    margin-top: 7% !important;
+    margin-left: 2px;
+    border: none;
+    box-shadow: -1px 5px 14px 2px #d2d2d2;
+ 
+}
+
+
+.careRight{
+    width: 100%;
+    /* background: chocolate; */
+    padding-bottom: 10px;
+    box-shadow: -1px 5px 14px 2px #e2cece;
+    
+}
+.careRight img{
+    width: 35%;
+    margin-left: 12%;
+    margin-top: 12%;
+}
+.careText{
+    font-size: 18px;
+    color: #9c9c9c;
+    margin-left: 12%;
+    margin-top: 3%;
+}
+.careLeft{
+    width: 100%;
+    background: brown;
+    height: 100%;
+  
+    
+}
+.careLeft iframe{
+    width: 100%;
+    height: 100%;
+    box-shadow: -1px 5px 14px 2px #8d7f7f;
+
+}
+@media (max-width:768)
+{
+    .careLeft{
+        margin-top: 10px;
+      }
+      .careRight{
+          margin-top: 10px;
+      }
+    
+}

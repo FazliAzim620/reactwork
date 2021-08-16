@@ -1,0 +1,39 @@
+.main-div-uni{
+    height: 400px !important;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.univ-left{
+    background-color: #ececec;
+    padding-bottom: 9%;
+    margin: none;
+  
+}
+.univ-left img{
+    width: 35%;
+    margin-left: 12%;
+    margin-top: 12%;
+}
+.uniText{
+    font-size: 18px;
+    color: #9c9c9c;
+    margin-left: 12%;
+    margin-top: 3%;
+    
+}
+
+.uniimg{
+    width: 100%;
+    height: 100%;
+    
+}
+.univ-right{
+    background: red;
+}
+@media (max-width:786px){
+    .univ-right{
+        margin-top: 20px;
+    }
+    .univ-left{
+        margin-bottom: 20px;
+    }}

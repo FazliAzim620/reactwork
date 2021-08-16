@@ -1,0 +1,112 @@
+.marketText{
+    text-align: center;
+    margin-top: 20px;
+   
+    
+}
+.marketText h2{
+    color: #717171;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-family: 'Mulish', sans-serif;
+}
+.marketText p{
+    color: #717171;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+
+}
+.dmpic{
+    margin: 10px;
+    padding: 20px;
+}
+.dmpic img{
+    width: 100%;
+  
+    vertical-align: middle;
+    height: 45%;
+    position: relative;
+   
+}
+.dmpic p {
+    width: 27%;
+   position: absolute;
+    left:54%;
+    margin-top: -30%;
+    line-height: 0.7cm;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    color:white;
+}
+.DMlogo{
+    position: absolute;
+    left:56%;
+    margin-top: -83%;
+}
+
+@media screen and (max-width: 1040px) {
+    .DMlogo{
+        display: none;
+    } 
+    .dmpic p{
+        width: 30%;
+        left:54%;
+        margin-top: -33%;
+        line-height: 0.5cm;
+    }
+  }
+  @media screen and (max-width: 767px) {                           
+   
+    .dmpic p{
+        width: 27%;
+        left:58%;
+        margin-top: -36%;
+        line-height: 0.5cm;
+        font-size: 10px;
+        margin-right: 0;
+       
+    }
+  }
+  @media screen and (max-width: 565px) {                           
+   
+    .dmpic p{
+        width: 30%;
+        left:57%;
+        margin-top: -36%;
+        line-height: 0.5cm;
+        font-size: 10px;
+        margin-right: 0;
+       
+
+    }
+    
+  }
+  @media screen and (max-width: 524px) {                           
+   
+    .dmpic p{
+        width: 30%;
+        left:57%;
+        margin-top: -36%;
+        line-height: 0.5cm;
+        font-size: 10px;
+        margin-right: 0;
+       
+
+    }
+    
+  }
+  @media screen and (max-width: 480px) {                           
+   
+    .dmpic p{
+        width: 30%;
+        left:57%;
+        margin-top: -40%;
+        line-height: 0.5cm;
+        font-size: 10px;
+        margin-right: 0;
+       
+
+    }
+    
+  }

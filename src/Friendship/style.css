@@ -1,0 +1,34 @@
+.friendLeft{
+    background-color: #ff752e;
+  border-radius: 10px;
+    padding: 20px;
+    height: 400px;
+}
+
+.friendRight{
+ 
+    height: 400px;
+     
+}
+.friendRight img{
+    width: 100%;
+    height: 100%;
+    margin-left: -60px;
+   padding:10px;
+    border-radius: 4%;
+    
+}
+.freindlogo{
+    width: 30%;
+    height: 15%;
+    display: inline-block;
+    margin: 10% 0 5% 10%;
+}
+.friendship{
+    margin-top: 10% !important;
+}
+@media(max-width:576px){
+    .friendRight img{
+        margin-left: 0;
+    }
+}
